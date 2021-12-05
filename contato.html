@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        h1{
+            text-align: center;
+            font-size: 2em;
+            text-shadow: 1px 1px 0px white;
+        }
+        h3{
+            text-shadow: 1px 1px 0px white; 
+            font-size: 2em;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size: 2em;
+        }
+        body{
+            background-image: linear-gradient(to right, #368BB5, white);
+            
+
+        }
+        #whats{
+            text-shadow: 2px 2px 0px rgb(20, 173, 20);
+        }
+        #email{
+            text-shadow: 1px 1px 0px white;
+        }
+        .content{display: flex;justify-content: center;}
+        .contato{width: 100%; max-width: 500px;}
+        .form{display: flex;flex-direction: column;}
+        .field{padding: 10px;margin-bottom: 15px;border: 1px solid #ddd;border-radius: 5px; font-size: 16px;}
+        textarea{height: 150px;}
+        a{text-decoration: none;color: white;}              
+    </style>
+</head>
+<body>
+    <h1>Canais de atendimento</h1>
+    <div>
+        <p id="whats">WhatsApp: 43988211822</p>
+        <p id="email">E-mail: brmotorslogistica@gmail.com</p>
+    </div>
+          
+    <section class="content">
+
+        <div class="contato">
+            <h3>Contato</h3>
+                <form class="form" method="POST" action="./email.php">
+                  <input class="field" name="name" placeholder="Nome">  
+                  <input class="field" name="telefone" placeholder="telefone">
+                  <input class="field" name="email" placeholder="email">  
+                  <textarea class="field" name="mesage" placeholder="Digite sua mensagem aqui..."></textarea>
+                  <input class="field" type="submit" value="Enviar">
+                </form>
+        </div>
+
+    </section>
+
+   <a href="index.html">Voltar ao inicio</a>
+    
+</body>
+</html>
