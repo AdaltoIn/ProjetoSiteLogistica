@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 1px 1px 0px white;
+}
+h3{
+    text-shadow: 1px 1px 0px white; 
+    font-size: 2em;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 2em;
+}
+body{
+    background-image: linear-gradient(to right, #368BB5, white);
+    
+
+}
+#whats{
+    text-shadow: 2px 2px 0px rgb(20, 173, 20);
+}
+#email{
+    text-shadow: 1px 1px 0px white;
+}
+.content{display: flex;justify-content: center;}
+.contato{width: 100%; max-width: 500px;}
+.form{display: flex;flex-direction: column;}
+.field{padding: 10px;margin-bottom: 15px;border: 1px solid #ddd;border-radius: 5px; font-size: 16px;}
+textarea{height: 150px;}
+a{text-decoration: none;color: white;} 
