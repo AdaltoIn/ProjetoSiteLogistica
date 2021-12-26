@@ -1,0 +1,82 @@
+body{
+    background-image: linear-gradient(to bottom, #368BB5, white);
+       
+    }
+    h1{
+        margin: auto;
+        text-align: center;
+        text-shadow: 1px 1px 0px white;
+        font-size: 3em;
+    }
+   h2{     
+    margin:20px 20px 20px 20px;
+    padding: 10px;
+    text-align: center;
+    /*text-shadow: 1px 1px 0px white; */    
+    font-size: 2em;
+    
+}  
+@media ( max-width: 670px){
+    h2{
+        font-size: 10pt;
+        
+        padding: 20px;
+    }
+
+    h1{
+        font-size: 16pt;
+        text-align: center;
+    }
+}
+
+@media (min-widht:320px){
+
+    h2{
+        font-size: 10pt;
+        
+        padding: 20px;
+    }
+
+    h1{
+        font-size: 16pt;
+        text-align: center;
+    }
+
+}
+
+#entregador1{
+      margin: auto;
+      height: 300px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+		-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+		box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+  
+}
+.img2{
+    position: absolute;
+    right: 400px;
+    top: 510px;
+    height: 300px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+		-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+		box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+
+
+}
+.paragrafo2{
+    
+    width: 500px;
+    height: 300px;
+    text-align: justify;
+    font-size: 20pt;
+    padding: 30px;
+    margin-top: 10px;
+
+}   
+p{
+    text-align: center;
+}
+div > a{
+    text-align: center;
+    text-decoration: none;
+}
